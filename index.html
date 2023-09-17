@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MediBotAI</title>
+	<link rel="icon" href="bot.png" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="back">
+	<nav>
+	  <a href="#modalboxA">ABOUT</a>
+	  <a href="#modalboxH">HELP</a>
+	  <a href="#modalboxC">CONTACT</a>
+	</nav>
+    </div>
+	<div id="modalboxA" class="modal">
+		<div class="modalcontent">
+			<h1>About MediBot</h1>
+			<p>Medibot is your medical assistant. Ask him about your symptoms, he will surely help. He can suggest you a drink or a food. he can also give you a helath tip if you ask him!</p>
+			<a href="#" class="spu-close-popup">&times;</a>
+		</div>
+	</div>
+	<div id="modalboxH" class="modal">
+		<div class="modalcontent">
+			<h1>Help</h1>
+			<p>Use the query box to type your health related querry. You can use phrases like "im feeling this", "feels like this" or you can simply type in the symptom you are experiencing.</p>
+			<a href="#" class="spu-close-popup">&times;</a>
+		</div>
+	</div>
+	
+	</div>
+	<div id="modalboxC" class="modal">
+		<div class="modalcontent">
+			<h1>Contact Us</h1>
+			<p>Reach us via Email:<br>Kaviyapriya : kaviyapriyam2002@gmail.com</br><br>Sivagami: ssivagami619@gmail.com</br></p>
+			<a href="#" class="spu-close-popup">&times;</a>
+		</div>
+	</div>	
+	<div id="container" class="container">
+		<div id="chat" class="chat">
+			<h1 style="font: size 10px;color: #69d1d6;">MediBotAI</h1>
+			<div id="messages" class="messages"></div>
+			<input id="input" type="text" placeholder="Hey! Type your query..." autocomplete="off" autofocus="true" />
+		</div>
+		
+		<img src="bot.gif" alt="Robot cartoon" height="500vh">
+	</div>
+</body>
+<script type="text/javascript" src="index.js" ></script>
+<script type="text/javascript" src="constants.js" ></script>
+<script type="text/javascript" src="speech.js" ></script>
+
+</html>
